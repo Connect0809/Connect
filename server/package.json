@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
     "dev": "nodemon"
   },
@@ -18,10 +17,12 @@
     "fs": "^0.0.1-security",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.9.7",
-    "nodemon": "^3.1.0",
     "path": "^0.12.7",
     "process": "^0.11.10",
     "sequelize": "^6.37.3",
     "sequelize-cli": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
