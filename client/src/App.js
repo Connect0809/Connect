@@ -13,7 +13,8 @@ import { AuthContext } from "./helpers/AuthContext";
 import { useState, useEffect, useContext } from "react";
 import axios from "axios";
 
-// axios.defaults.baseURL = "https://d139-13-60-46-156.ngrok-free.app";
+
+axios.defaults.baseURL = "https://connect-9mho.onrender.com";
 // axios.defaults.headers = {
 // "Content-Type" : "application/json",
 // "ngrok-skip-browser-warning":"69420",
